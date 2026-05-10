@@ -194,6 +194,4 @@ Same pattern, same contracts. The discipline scales.
 
 ---
 
-## License
 
-MIT — feel free to reuse and adapt.
