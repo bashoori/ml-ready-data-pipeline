@@ -1,0 +1,32 @@
+feedback_id,user_id,rating,comment
+f0000,u018,5,Why did you change the UI? Bring it back.
+f0001,u022,1,"Five stars, will recommend."
+f0003,u025,4,Pricing is fair.
+f0004,u024,1,Confusing onboarding flow.
+f0005,u020,3,Why did you change the UI? Bring it back.
+f0007,u007,2,Buggy on mobile.
+f0010,u018,3,App crashed twice today.
+f0011,u025,3,Customer support was helpful.
+f0014,u020,5,Buggy on mobile.
+f0015,u021,5,"Loved the new feature, very intuitive."
+f0017,u023,3,"Loved the new feature, very intuitive."
+f0018,u006,3,Excellent product.
+f0019,u025,3,Cafe@home_special — typo: pleasse fix.
+f0020,u011,3,"Loved the new feature, very intuitive."
+f0023,u003,2,Excellent product.
+f0024,u021,1,App crashed twice today.
+f0025,u024,5,Great experience overall!
+f0026,u013,4,Nothing to add.
+f0027,u011,2,Why did you change the UI? Bring it back.
+f0029,u025,5,Customer support was helpful.
+f0030,u003,1,Could be faster.
+f0033,u009,4,Buggy on mobile.
+f0034,u014,4,Customer support was helpful.
+f0035,u015,4,Confusing onboarding flow.
+f0039,u022,5,Nothing to add.
+f0041,u002,2,"Five stars, will recommend."
+f0042,u020,1,"Loved the new feature, very intuitive."
+f0043,u007,3,Great experience overall!
+f0044,u025,2,Lost my data — frustrating.
+f0045,u009,3,Why did you change the UI? Bring it back.
+f0047,u024,4,Could be faster.

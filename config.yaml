@@ -1,0 +1,32 @@
+# Pipeline configuration
+# Source paths and data-quality thresholds live here so they can be
+# tuned without touching code.
+
+paths:
+  raw:    data/raw
+  silver: data/silver
+  gold:   data/gold
+  reports: reports
+
+sources:
+  users:
+    file: users.csv
+    format: csv
+    primary_key: user_id
+    required_columns: [user_id, email, signup_date, age, country]
+  events:
+    file: events.jsonl
+    format: jsonl
+    primary_key: event_id
+    required_columns: [event_id, user_id, event_type, timestamp]
+  feedback:
+    file: feedback.tsv
+    format: tsv
+    primary_key: feedback_id
+    required_columns: [feedback_id, user_id, rating, comment]
+
+# Data-quality thresholds — soft warnings (logged in DQ report, do not fail run)
+dq_thresholds:
+  max_null_rate: 0.05         # any column above 5% null → warning
+  max_duplicate_rate: 0.01    # >1% duplicates after dedup → warning
+  max_drop_rate: 0.10         # >10% rows dropped at Silver → warning

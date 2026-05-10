@@ -1,0 +1,212 @@
+{
+  "run_at": "2026-05-10 19:10 UTC",
+  "bronze_counts": {
+    "users": 26,
+    "events": 201,
+    "feedback": 50
+  },
+  "silver": {
+    "users": {
+      "rows_in": 26,
+      "rows_out": 21,
+      "results": [
+        {
+          "rule": "drop_rate",
+          "passed": false,
+          "detail": "19.23% dropped (5/26, threshold 10%)",
+          "metrics": {
+            "drop_rate": 0.19230769230769232,
+            "rows_in": 26,
+            "rows_out": 21,
+            "threshold": 0.1
+          }
+        },
+        {
+          "rule": "duplicate_rate(user_id)",
+          "passed": "True",
+          "detail": "0.00% duplicates (threshold 1%)",
+          "metrics": {
+            "duplicate_rate": 0.0,
+            "threshold": 0.01
+          }
+        },
+        {
+          "rule": "null_rate(user_id)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(email)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(signup_date)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(age)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(country)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        }
+      ],
+      "all_passed": false
+    },
+    "events": {
+      "rows_in": 201,
+      "rows_out": 154,
+      "results": [
+        {
+          "rule": "drop_rate",
+          "passed": false,
+          "detail": "23.38% dropped (47/201, threshold 10%)",
+          "metrics": {
+            "drop_rate": 0.23383084577114427,
+            "rows_in": 201,
+            "rows_out": 154,
+            "threshold": 0.1
+          }
+        },
+        {
+          "rule": "duplicate_rate(event_id)",
+          "passed": "True",
+          "detail": "0.00% duplicates (threshold 1%)",
+          "metrics": {
+            "duplicate_rate": 0.0,
+            "threshold": 0.01
+          }
+        },
+        {
+          "rule": "null_rate(event_id)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(user_id)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(event_type)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(timestamp)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        }
+      ],
+      "all_passed": false
+    },
+    "feedback": {
+      "rows_in": 50,
+      "rows_out": 31,
+      "results": [
+        {
+          "rule": "drop_rate",
+          "passed": false,
+          "detail": "38.00% dropped (19/50, threshold 10%)",
+          "metrics": {
+            "drop_rate": 0.38,
+            "rows_in": 50,
+            "rows_out": 31,
+            "threshold": 0.1
+          }
+        },
+        {
+          "rule": "duplicate_rate(feedback_id)",
+          "passed": "True",
+          "detail": "0.00% duplicates (threshold 1%)",
+          "metrics": {
+            "duplicate_rate": 0.0,
+            "threshold": 0.01
+          }
+        },
+        {
+          "rule": "null_rate(feedback_id)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(user_id)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(rating)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        },
+        {
+          "rule": "null_rate(comment)",
+          "passed": "True",
+          "detail": "0.00% null (threshold 5%)",
+          "metrics": {
+            "null_rate": 0.0,
+            "threshold": 0.05
+          }
+        }
+      ],
+      "all_passed": false
+    }
+  },
+  "gold_counts": {
+    "user_features": 21,
+    "event_facts": 154
+  }
+}
